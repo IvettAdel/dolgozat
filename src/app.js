@@ -20,7 +20,6 @@ calcButton.addEventListener('click', () => {
    let r2side = Number(r2sideElem.value);
    let magassagside = Number(magassagsideElem.value);
 
-//    console.log(aside)
    let area = calcArea(r1side, r2side, magassagside);
    areaElem.value = area;
 });
