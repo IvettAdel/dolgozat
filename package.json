@@ -1,0 +1,19 @@
+{
+  "name": "2023.02.06-hazi_feladat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "devDependencies": {
+    "lite": "^4.0.5",
+    "server": "^1.0.38"
+  }
+}
