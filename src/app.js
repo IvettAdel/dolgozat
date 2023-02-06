@@ -16,14 +16,12 @@ const areaElem = document.querySelector("#area");
 
 
 calcButton.addEventListener('click', () => {
-    //a=13, b=4, c=7, d=4
-//    console.log('műkdik') 
    let r1side = Number(r1sideElem.value);
    let r2side = Number(r2sideElem.value);
    let magassagside = Number(magassagsideElem.value);
 
 //    console.log(aside)
-   let area = calcArea(aside, bside, cside, dside);
+   let area = calcArea(r1side, r2side, magassagside);
    areaElem.value = area;
 });
 
