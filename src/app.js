@@ -12,7 +12,7 @@ const r1sideElem = document.querySelector("#r2side");
 const r2sideElem = document.querySelector("#r2side");
 const magassagsideElem = document.querySelector("#magassagside")
 const calcButton = document.querySelector("#calcButton");
-const areaElem = document.querySelector("#area");
+const volumeElem = document.querySelector("#volume");
 
 
 calcButton.addEventListener('click', () => {
@@ -21,8 +21,8 @@ calcButton.addEventListener('click', () => {
    let magassagside = Number(magassagsideElem.value);
 
 
-   let area = calcArea(r1side, r2side, magassagside);
-   areaElem.value = area;
+   let volume = calcvolum(r1side, r2side, magassagside);
+   volumeElem.value = area;
 });
 
 function calcArea(r1side, r2side, magassagside) {
