@@ -20,17 +20,14 @@ calcButton.addEventListener('click', () => {
    let r2side = Number(r2sideElem.value);
    let magassagside = Number(magassagsideElem.value);
 
+
    let area = calcArea(r1side, r2side, magassagside);
    areaElem.value = area;
 });
 
-function calcArea(a, b, c, d) {
-    let terulet = ( (a + c)/(4*(a-c)) ) 
+function calcArea(r1side, r2side, magassagside) {
+    let térfogat = ( 1/3 ) * 3,14 + r1side + r2side + magassagside  
     * Math.sqrt(
-        (a+b-c+d)*
-        (a-b-c+d)*
-        (a+b-c-d)*
-        (-a+b+c+d)
     )
     return terulet;
 }
